@@ -1,0 +1,137 @@
+#######################################################################################
+# README FILE
+# Introduction to Machine Learning
+# Assignment 4
+#
+# After completing the assignment, fill in this README file.  It asks you to duplicate
+# your answer to several questions.  Be certain that your answers in this README file
+# (which will be used for auto-grading) match the answers in your PDF writeup.
+#
+# This README file is formatted in YAML to allow it to be machine readable.  Please
+# be very careful with how you edit it, being careful to following the formatting.
+# Make certain not to change any text in all UPPERCASE.  After editing, you can make 
+# certain that your README file follows proper YAML syntax by running it through an
+# online YAML checker, such as http://yaml-online-parser.appspot.com/
+# 
+# The most frequent error is multi-line strings, such as "SOURCESCONSULTED" and 
+# "FEEDBACK_ERRORS".  Make certain that the previous line ends with a | followed by a 
+# newline.  Then, make certain that the subsequent lines are indented one level in 
+# (4 spaces).  This sounds complex, but just follow the existing format of this file.
+# If you run into any problems that you can't fix easily in listing your sources or 
+# providing feedback on the assignment, just include your multi-line string answers to
+# these parts as comments.  Everything else (all simple one-word or numeric answers) must
+# be properly formatted YAML.
+# 
+# Assignment Version 20151026a
+#######################################################################################
+
+# Personal information  (BE SURE TO CHANGE THIS!)
+FIRSTNAME: Xu
+LASTNAME:  He
+PENNKEY:   hexu3
+PENNID:    23119459
+
+# Which course are you enrolled in?  (enter 419 or 519)
+COURSE:  519 
+
+
+# List all sources of help that you consulted while completing this assignment 
+# (other students, colleagues, textbooks, websites, etc.).  This includes anyone you 
+# briefly discussed the homework with.  If you received help from the following sources, 
+# you do not need to cite it: course instructor, course teaching assistants, course 
+# lecture notes, course textbooks or other readings.
+# 
+# If you didn't receive help from anyone, write "none".
+
+SOURCESCONSULTED: |
+    While completing the assignment, I consulted the following sources: 
+    Chapter 2 of Pattern Recognition and Machine Learning by C. Bishop
+    Chapter 5 of Machine Learning, A Probabilistic Perspective by K. Murphy
+    Hua Zhu, Yucong Li
+
+
+ 
+####################################################################################### 
+# Answers to Problem 2:  Backpropagation with Momentum
+#
+# Please list your final answers below for auto-grading.
+#######################################################################################
+
+# Problem 2: What is the weight vector after the first epoch?  (only your final answer)
+PROB_BACKPROPMOMENTUM_EPOCH1: (0.1017, 0.0980, 0.0997, 0.0936, 0.0884)
+
+# Problem 2: What is the weight vector after the second epoch?  (only your final answer)
+PROB_BACKPROPMOMENTUM_EPOCH2: (0.0982, 0.1021, 0.1003, 0.1073, 0.1125)
+
+
+
+
+#######################################################################################
+# Answer to Implementation Exercise 1:  Text Classification and ROC
+#######################################################################################
+
+# What was the training accuracy?
+TEXT20NEWS_ACCURACY_TRAIN_NB: 0.99779
+TEXT20NEWS_ACCURACY_TRAIN_SVM: 0.99620
+
+# What was the testing accuracy?
+TEXT20NEWS_ACCURACY_TEST_NB: 0.83736
+TEXT20NEWS_ACCURACY_TEST_SVM: 0.84626
+
+# What was the training precision?
+TEXT20NEWS_PRECISION_TRAIN_NB: 0.99780
+TEXT20NEWS_PRECISION_TRAIN_SVM: 0.99622
+
+# What was the testing precision?
+TEXT20NEWS_PRECISION_TEST_NB: 0.83859
+TEXT20NEWS_PRECISION_TEST_SVM: 0.85166
+
+# What was the training recall?
+TEXT20NEWS_RECALL_TRAIN_NB: 0.99779
+TEXT20NEWS_RECALL_TRAIN_SVM: 0.99620
+
+# What was the testing recall?
+TEXT20NEWS_RECALL_TEST_NB: 0.83736
+TEXT20NEWS_RECALL_TEST_SVM: 0.84626
+
+# What was the training time (in seconds)?
+TEXT20NEWS_TIME_TRAIN_NB: 0.152586
+TEXT20NEWS_TIME_TRAIN_SVM: 34.578064
+
+# Which classifier performed better overall?  (answer either NAIVEBAYES or SVM -- you can choose only one)
+TEXT20NEWS_BESTCLASSIFIER: NAIVEBAYES
+
+
+
+
+#######################################################################################
+# Answer to Implementation Exercise 2:  Neural Network
+#######################################################################################
+
+# What was the training accuracy?
+NEURALNET_ACCURACY_TRAIN: 95.3%
+
+# What was the optimal learning rate?
+NEURALNET_OPTIMAL_LEARNINGRATE: 2
+
+ 
+ 
+ 
+#######################################################################################
+# Feedback on the Assignment (OPTIONAL)
+# 
+# The following information will help us improve future versions of this assignment.
+# It is completely optional, but highly appreciated.  Please be honest.
+#######################################################################################
+
+# Approximately how many hours did it take you to complete this assignment?
+FEEDBACK_NUM_HOURS: 40
+
+# Please list any typos / errors you noticed in the assignment description or skeleton code
+FEEDBACK_ERRORS: |
+    None
+ 
+# Please describe any problems you encountered while completing this assignment
+FEEDBACK_PROBLEMS: |
+    None
+    
